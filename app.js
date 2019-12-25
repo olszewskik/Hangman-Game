@@ -12,7 +12,7 @@ window.addEventListener("keypress", e => {
   guessesElement.textContent = game1.statusMessage;
 });
 
-const test = getPuzzle((error, puzzle) => {
+getPuzzle("2", (error, puzzle) => {
   if (error) {
     console.log(`Error: ${error}`);
   } else {
