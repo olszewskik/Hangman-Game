@@ -23,8 +23,8 @@ const render = () => {
 };
 
 const stratGame = async () => {
-  const puzzle = await getPuzzle("4");
-  game = new Hangman(puzzle, 4);
+  const puzzle = await getPuzzle("6");
+  game = new Hangman(puzzle, 6);
   render();
 };
 
